@@ -14,7 +14,7 @@ List<EmpMast> list=service.getEmpDetails();
 request.setAttribute("list",list);
 %>
 <table border="2px" width="100%">
-<tr><th>Id</th><th>Fname</th><th>Mname</th><th>Lname</th><th>mob_no</th><th>email_id</th><th>designation</th><th>department</th><th>address</th><th>pancard_no</th><th>adharcard_no</th><th>date_join</th><th>Edit</th><th>Delete</th></tr>
+<tr><th>Id</th><th>Fname</th><th>Middle_name</th><th>Lname</th><th>mob_no</th><th>email_id</th><th>designation</th><th>department</th><th>address</th><th>pancard_no</th><th>adharcard_no</th><th>date_join</th><th>Edit</th><th>Delete</th></tr>
 <%
 for(EmpMast empmast:list)
 {
